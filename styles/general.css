@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #1a84b8,#1a8cb8,#1a94b8 ,#1a94b8,#1aa4b8);
+    padding: 0;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-weight: 600;
+    float: center;
+    text-align: center;
+}
+.navbar-nav li a:hover{
+    color: rgb(228, 228, 228);
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none;
+}
+#footer{
+    background-image: linear-gradient(to right, #1a84b8,#1a8cb8,#1a94b8 ,#1a94b8,#1aa4b8);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.logo{
+    height: 60px;
+}
+.logo-word{
+    margin-left: 20px;
+    width: 250px;
+}
+
+.footer-box .fa-solid{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+iframe{
+    margin-top: 20px;
+    width: 80%;
+    height: 500px;
+}
+.maps{
+    width: 100%;
+}
+.logo-word-top{
+    width: 200px;
+    object-fit: contain;
+}
